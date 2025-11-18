@@ -17,11 +17,22 @@ class MainPostController extends Controller
         ]);
     }
 
-    public function details($slug){
-        $post = Post::where('slug', $slug)->first();
-        $title = $post->Title;
-        return view('post.details',compact('post'),[
-            'title' => $title
+   public function details($slug)
+    {
+        $post = Post::where('slug', $slug)->firstOrFail();
+
+        // Lấy 6 bài viết mới nhất (không tính bài hiện tại)
+        $latest_posts = Post::where('active', 1)
+            ->where('id', '!=', $post->id)
+            ->latest()
+            ->take(6)
+            ->get();
+
+        return view('post.details', [
+            'post' => $post,
+            'latest_posts' => $latest_posts,
+            'title' => $post->Title
         ]);
     }
+
 }

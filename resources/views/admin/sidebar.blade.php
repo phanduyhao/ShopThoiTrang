@@ -73,12 +73,12 @@
         <li class="menu-header small text-uppercase">
             <span class="menu-header-text">Mục Khác</span>
         </li>
-        <li class='menu-item'>
+        {{-- <li class='menu-item'>
             <a href='{{route('addresses.index')}}' class='menu-link'>
                 <i class='menu-icon tf-icons bx bx-street-view'></i>
                 <div data-i18n='Layouts'>Địa chỉ</div>
             </a>
-        </li>
+        </li> --}}
         <li class='menu-item'>
             <a href='{{route('orders.index')}}' class='menu-link'>
                 <i class='menu-icon tf-icons bx bx-food-menu'></i>

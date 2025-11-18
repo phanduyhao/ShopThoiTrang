@@ -154,8 +154,8 @@
                                             </div>
                                         </div>
                                         <div id="newType" class="mb-3">
-                                            <label class='form-label'>Phân loại ( ngăn cách bởi dấu phẩy )</label>
-                                            <input type='text' class='form-control ' placeholder='Nhập giá trị (vd: Loại A, Loại B, Loại C)' name='types' />
+                                            <label class='form-label'>Nhập Size ( ngăn cách bởi dấu phẩy )</label>
+                                            <input type='text' class='form-control ' placeholder='Nhập giá trị (vd: S, M, L, XL, XXL)' name='types' />
                                         </div>
                                     </div>
                                     <div class="tab-pane fade" id="content-details" role="tabpanel" aria-labelledby="content-details-tab" tabindex="0">
@@ -425,8 +425,8 @@
                                                 </div>
                                             </div>
                                             <div  class="mb-3">
-                                                        <label class='form-label'>Phân loại ( ngăn cách bởi dấu phẩy )</label>
-                                                        <input type='text' class='form-control ' value="{{$product->types}}" placeholder='Nhập giá trị (vd: Loại A, Loại B, Loại C)' name='types' />
+                                                        <label class='form-label'>Nhập Size ( ngăn cách bởi dấu phẩy )</label>
+                                                        <input type='text' class='form-control ' value="{{$product->types}}" placeholder='Nhập giá trị (vd: S, M, L, XL, XXL)' name='types' />
                                                     </div>
                                             <div class="tab-pane fade" id="content-details-{{$product->id}}" role="tabpanel" aria-labelledby="content-details-{{$product->id}}-tab" tabindex="0">
                                                 <div class="form-group">

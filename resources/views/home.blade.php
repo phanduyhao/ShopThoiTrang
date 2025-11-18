@@ -35,7 +35,7 @@
                         <img class="img-banner" height="420" src="/temp/assets/img/banner/banner-1.jpg" alt="">
                     </div>
                     <div class="banner__item__text">
-                        <h2>Gimbal Q04 kèm đèn HULAKO Hot Nhất</h2>
+                        <h2>Bộ thu đông Doraemon cực kỳ dễ thương</h2>
                         <a href="/shop">Khám phá cửa hàng</a>
                     </div>
                 </div>
@@ -43,10 +43,10 @@
             <div class="col-lg-5">
                 <div class="banner__item banner__item--middle">
                     <div class="banner__item__pic">
-                        <img class="img-banner" height="420" src="/temp/assets/img/banner/banner-2.jpg" alt="">
+                        <img class="img-banner w-100" height="420" src="/temp/assets/img/banner/banner-2.jpg" alt="">
                     </div>
                     <div class="banner__item__text">
-                        <h2>Sạc Dự Phòng Mini 30000/20000mAh 35W hấp dẫn</h2>
+                        <h2>CANIFA S - TỰ HÀO VIỆT NAM ƠI</h2>
                         <a href="/shop">Khám phá cửa hàng</a>
                     </div>
                 </div>
@@ -57,7 +57,7 @@
                         <img class="img-banner" height="420" src="/temp/assets/img/banner/banner-3.jpg" alt="">
                     </div>
                     <div class="banner__item__text">
-                        <h2>Ưu đãi Tai nghe bluetooth Rockspace Retro TWS</h2>
+                        <h2>Trở về tuổi thơ với Bộ đồ Disney thật hoài niệm</h2>
                         <a href="/shop">Khám phá cửa hàng</a>
                     </div>
                 </div>
@@ -121,7 +121,7 @@
         <div class="row">
             <div class="col-lg-3">
                 <div class="categories__text">
-                    <h2>XiaoMi mới nhất<br> <span>Iphone Hot nhất</span> <br>SamSung Hot</h2>
+                    <h2>Áo mới nhất<br> <span>Đầm Hot nhất</span> <br>Set Hot</h2>
                 </div>
             </div>
             <div class="col-lg-4">
@@ -129,14 +129,14 @@
                     <img src="/temp/assets/img/product-sale.png" alt="">
                     <div class="hot__deal__sticker">
                         <span>Giảm giá</span>
-                        <h5>9.000 đ</h5>
+                        <h5>30 %</h5>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 offset-lg-1">
                 <div class="categories__deal__countdown">
                     <span>Ưu đãi trong tuần</span>
-                    <h2>Đồng giá các loại phụ kiện</h2>
+                    <h2>Đồng giá các loại </h2>
                     <div class="categories__deal__countdown__timer" id="countdown">
                         <div class="cd-item"><span>30</span> <p>Ngày</p></div>
                         <div class="cd-item"><span>02</span> <p>Giờ</p></div>
@@ -156,7 +156,7 @@
             <div class="col-lg-12">
                 <div class="section-title">
                     <span>Tin tức mới</span>
-                    <h2>Xu hướng điện thoại mới</h2>
+                    <h2>Xu hướng thời trang mới</h2>
                 </div>
             </div>
         </div>

@@ -18,8 +18,8 @@
                     </div>
                     <ul>
                         <li>
-                            <h4>Đà Nẵng</h4>
-                            <p>256 Âu Cơ - Hoà Khánh Bắc - Liên Chiểu - Đà Nẵng <br />+84 364 941 253 <br />vothithanhtram03@gmail.com</p>
+                            <h4>Nghệ An</h4>
+                            <p>Đại học Vinh - Phường Trường Vinh - Nghệ An <br />+84 364 941 253 <br />hoangtrang@gmail.com</p>
                         </li>
                     </ul>
                 </div>

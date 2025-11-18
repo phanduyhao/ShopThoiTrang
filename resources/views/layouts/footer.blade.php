@@ -4,7 +4,7 @@
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="footer__about">
                     <div class="footer__logo">
-                        <a href="#" class=""><img src="/temp/assets/img/logo.png" alt="" width="130"></a>
+                        <a href="#" class=""><img src="/temp/assets/img/logo.png" alt="" ></a>
                     </div>
                     <p>Khách hàng là trung tâm của mô hình kinh doanh độc đáo của chúng tôi, bao gồm thiết kế.</p>
                     <a href="#"><img src="/temp/assets/img/payment.png" alt=""></a>
@@ -14,9 +14,9 @@
                 <div class="footer__widget">
                     <h6>Mua sắm</h6>
                     <ul>
-                        <li><a href="#">Cửa hàng mỹ phẩm</a></li>
-                        <li><a href="#">Kem đang thịnh hành</a></li>
-                        <li><a href="#">Bộ trang điểm</a></li>
+                        <li><a href="#">Cửa hàng thời trang</a></li>
+                        <li><a href="#">Set váy đang thịnh hành</a></li>
+                        <li><a href="#">Bộ quần áo hot</a></li>
                         <li><a href="#">Giảm giá</a></li>
                     </ul>
                 </div>

@@ -20,7 +20,7 @@
     <!-- Blog Details Hero End -->
 
     <!-- Blog Details Section Begin -->
-    <section class="blog-details spad">
+    <section class="blog-details spad border-bottom">
         <div class="container">
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-12">
@@ -32,31 +32,44 @@
                     <div class="blog__details__content">
                         {!! $post->content !!}
 
-                        <div class="blog__details__comment">
-                            <h4>Leave A Comment</h4>
-                            <form action="#">
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-4">
-                                        <input type="text" placeholder="Name">
-                                    </div>
-                                    <div class="col-lg-4 col-md-4">
-                                        <input type="text" placeholder="Email">
-                                    </div>
-                                    <div class="col-lg-4 col-md-4">
-                                        <input type="text" placeholder="Phone">
-                                    </div>
-                                    <div class="col-lg-12 text-center">
-                                        <textarea placeholder="Comment"></textarea>
-                                        <button type="submit" class="site-btn">Post Comment</button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- Blog Details Section End -->
+<!-- Latest Posts Slider Begin -->
+<section class="blog spad" style="padding-top: 20px;">
+    <div class="container">
+        <div class="section-title text-center">
+            <h3>Bài viết mới nhất</h3>
+        </div>
+
+        <div class="row">
+            <div class="owl-carousel owl-theme" id="latest-posts-slider">
+                @foreach($latest_posts as $item)
+                    <div class="item">
+                        <div class="blog__item">
+                            <div class="blog__item__pic set-bg"
+                                 data-setbg="/temp/images/post/{{ $item->thumb }}">
+                            </div>
+                            <div class="blog__item__text">
+                                <span class="d-flex align-items-center">
+                                    <img src="/temp/assets/img/icon/calendar.png" class="me-2" alt="" style="width: 13px; height:13px">
+                                    {{ $item->updated_at->format('d/m/Y') }}
+                                </span>
+                                <h5>{{ $item->Title }}</h5>
+                                <a href="{{ route('posts.details', ['slug' => $item->slug]) }}">
+                                    Đọc thêm
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                @endforeach
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Latest Posts Slider End -->
 
 @endsection

@@ -671,6 +671,8 @@ ol {
 .banner__item {
 	position: relative;
 	overflow: hidden;
+	background-color: aliceblue;
+
 }
 
 .banner__item:hover .banner__item__text a:after {

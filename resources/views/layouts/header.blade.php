@@ -179,7 +179,7 @@ button {
         <div class="row">
             <div class="col-lg-3 col-md-3">
                 <div class="header__logo py-2">
-                    <a href="/"><img src="/temp/assets/img/logo.png" alt="" width="130"></a>
+                    <a href="/"><img src="/temp/assets/img/logo.png" alt="" ></a>
                 </div>
             </div>
             <div class="col-lg-6 col-md-6">

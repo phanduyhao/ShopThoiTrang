@@ -130,8 +130,10 @@
     }
 
     .mySwiper2 {
-      height: 80%;
-      width: 100%;
+      aspect-ratio: 1;
+        height: auto;
+        width: 100%;
+        object-fit: cover;
     }
 
     .mySwiper {
@@ -278,7 +280,7 @@
             
         <div class="item-details-blocks container mt-5 py-5 px-0">
             <div class="row">
-                <div class="col-lg-8 col-md-7 col-12">
+                <div class="col-12">
                     <!-- Start Single Block -->
                     <div class="single-block bg-white p-3 description">
                         <h2 class="font-weight-bold text-danger text-left my-3">Thông tin chi tiết:</h2>
@@ -289,46 +291,7 @@
                     <!-- End Single Block -->
                 
                 </div>
-                
-                <div class="col-lg-4 col-md-5 col-12">
-                    <div class="item-details-sidebar">
-                        <!-- Start Single Block -->
-                        <div class="single-block bg-white p-3 thongsokythuat">
-                            <h4 class="font-weight-bold text-danger text-left my-3">Thông số kỹ thuật:</h4>
-                            <div class="content">
-                                {!! $product->thongsokythuat !!}
-                            </div>
-                        </div>
-                        <!-- End Single Block -->
-                        <!-- Start Single Block -->
-                        <div class="single-block bg-white p-3 ">
-                            <div class="mapouter">
-                                <div class="gmap_canvas"><iframe width="100%" height="300" id="gmap_canvas"
-                                                                 src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                                                                 frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
-                                        href="https://putlocker-is.org"></a><br>
-                                    <style>
-                                        .mapouter {
-                                            position: relative;
-                                            text-align: right;
-                                            height: 300px;
-                                            width: 100%;
-                                        }
-                                    </style><a href="https://www.embedgooglemap.net">Mã google map website</a>
-                                    <style>
-                                        .gmap_canvas {
-                                            overflow: hidden;
-                                            background: none !important;
-                                            height: 300px;
-                                            width: 100%;
-                                        }
-                                    </style>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Block -->
-                    </div>
-                </div>
+              
             </div>
   {{--    COMMENTS    --}}
   <div id="list-comment__data" class="list-product mt-5 p-5 bg-white" data-comment-limit="{{$initialCommentsCount}}" data-load-more="{{ $loadMoreCommentsCount }}" data-total-cmt="{{ $comments->count() }}">
